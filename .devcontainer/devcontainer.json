@@ -1,4 +1,6 @@
-{
-  "postCreateCommand": ".devcontainer/tailscale-start.sh",
-  "postStartCommand": ".devcontainer/tailscale-start.sh"
+"runArgs": ["--device=/dev/net/tun"],
+"features": {
+  // ...
+  "ghcr.io/tailscale/codespace/tailscale": {}
+  // ...
 }
