@@ -1,0 +1,4 @@
+{
+  "postCreateCommand": ".devcontainer/tailscale-start.sh",
+  "postStartCommand": ".devcontainer/tailscale-start.sh"
+}
